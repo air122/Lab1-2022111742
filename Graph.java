@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 
 public class Graph {
     Map<String, GraphNode> nodes;
+    int a;
 
     public Graph() {
         nodes = new HashMap<>();
